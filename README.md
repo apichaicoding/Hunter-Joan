@@ -1,6 +1,6 @@
-# Hunter-Joan
+# Hunter Joan
 
-Hunter Joan เป็น Bot ของกลุ่ม [Community MHTH (Monster Hunter Thailand)](https://discord.gg/wj8FunCfNS) โดยใช้ Repit เป็น Host Server ภาษาที่ใช้ JS ถูกสร้างมาเพื่อพัฒนาตัวเองและตอบสนองความต้องการในกลุ่ม<br>
+Hunter Joan นักล่าอายุน้อยที่ชื่นชอบมอนเตอร์ศึกษาหาข้อมูลและพฤติกรรมของมอนเตอร์ต่างๆอย่างชำนาญจนได้มาเป็น Bot ของกลุ่ม [Community MHTH (Monster Hunter Thailand)](https://discord.gg/wj8FunCfNS) โดยใช้ Repit เป็น Host Server ภาษาที่ใช้ JS ถูกสร้างมาเพื่อพัฒนาตัวเองและตอบสนองความต้องการในกลุ่ม<br>
 
 # ความสามารถ :<br>
   1. ตอยรับสมาชิดเข้า
