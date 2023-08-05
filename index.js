@@ -1,5 +1,5 @@
 const keepAlive = require(`./server`);
-const { Client, GatewayIntentBits } = require('discord.js');
+const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
 const client = new Client({
 	intents: [
 		GatewayIntentBits.Guilds,
@@ -9,9 +9,14 @@ const client = new Client({
 	],
 });
 
+
 //Ready
 client.on('ready', () => {
- console.log(`Logged in as ${client.user.tag}!`);
+  console.log(`Logged in as ${client.user.tag}!`);
+  client.user.setPresence({
+    activities: [{ name: `Joan โชว์โหด`, type: ActivityType.Watching }],
+    status: 'online',
+  });
 });
 
 //AddMember
@@ -36,7 +41,7 @@ client.on('guildMemberRemove', member => {
 });
 
 //Command
-client.on('messageCreate', msg => {
+client.on('messageCreate', async (msg) => {
   const game = ["!p3"];
   const mode = ["gh","va"];
   const rankgh = ["hr1","hr2","hr3","hr4","hr5","hr6","hr7","hr8","hr9"];
@@ -60,8 +65,9 @@ client.on('messageCreate', msg => {
   const command = msg.content.toLowerCase();
   const setCommand = command.split(" ");
   if (msg.author.bot) return;
-  
-  if (msg.guild && msg.guild.id === process.env['SERVERID'] && ( msg.channel.id === process.env['ChannelTest'] || msg.channel.id === process.env['ChannelBotCommand'] ) ) {
+
+  //ChannelBotCommand
+  if (msg.guild && msg.guild.id === process.env['SERVERID'] && msg.channel.id === process.env['ChannelBotCommand'] ) {
     game.forEach(search1 => {
       if(setCommand.length > 1){
         if(setCommand[0] === search1){
@@ -92,6 +98,40 @@ client.on('messageCreate', msg => {
       }
     });
 	}
+
+  //ChannelTest
+  if (msg.guild && msg.guild.id === process.env['SERVERID'] && msg.channel.id === process.env['ChannelTest'] ) {
+    game.forEach(search1 => {
+      if(setCommand.length > 1){
+        if(setCommand[0] === search1){
+          if(setCommand[1] === mode[0]){
+              rankgh.forEach(search2 => {
+                if(setCommand[2] === search2){
+                  const img = `${setCommand[0]}${setCommand[1]}${setCommand[2]}`
+                  const imageUrl = imageUrls[img.substring(1)];
+                  if (imageUrl) {
+                    msg.reply(`${imageUrl}`);
+                  }
+                }
+              });
+            }else if(setCommand[1] === mode[1]){
+              rankva.forEach(search2 => {
+                if(setCommand[2] === search2){
+                  const img = `${setCommand[0]}${setCommand[1]}${setCommand[2]}`
+                  const imageUrl = imageUrls[img.substring(1)];
+                  if (imageUrl) {
+                    msg.reply(`${imageUrl}`);
+                  }
+                }
+              });
+            }
+        }
+      }else if (command === `!hello`) {
+  			msg.reply(`สวัสดีฮันเตอร์ <@${msg.author.id}>`);
+      }
+    });
+	}
+  
 });
 
 //Login
