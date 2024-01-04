@@ -1,0 +1,1624 @@
+{
+    "skilArmorF1": [
+      {
+        "name": "SwdShrpner",
+        "skill_name": ["Sharpening Skl Inc", "Sharpening Skill Half"],
+        "skill_desc": ["ลับคมเร็วขึ้น", "ลับคมชาลง"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Artisan",
+        "skill_name": ["Sharpness +1", "Sharpness -1"],
+        "skill_desc": ["เพิ่มความคม", "ลดความคม"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Sharpness",
+        "skill_name": ["Sharp Sword", "Blunt"],
+        "skill_desc": ["เมื่อโจมตีลดความคมครึ่ง", "เมื่อโจมตีลดความคม2เท่า"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Fencing",
+        "skill_name": ["ESP"],
+        "skill_desc": ["เมื่อโจมตีจะไม่เด้ง"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Auto-guard",
+        "skill_name": ["Auto-guard"],
+        "skill_desc": ["ป้องกันอัตโนมัติเมื่อป้องกันได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Guard Up",
+        "skill_name": ["Guard Inc"],
+        "skill_desc": ["สามารถบล็อกการโจมตีที่บล็อกไม่ได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Guard",
+        "skill_name": ["Guard +2", "Guard +1", "Guard -1", "Guard -2"],
+        "skill_desc": ["ลด Stamina อย่างมากเมื่อป้องกัน", "ลด Stamina เมื่อป้องกัน", "เสีย Stamina เมื่อป้องกัน", "เสีย Stamina อย่างมากเมื่อป้องกัน"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Load",
+        "skill_name": ["Reloading Speed +3", "Reloading Speed +2", "Reloading Speed +1", "Reloading Speed -3", "Reloading Speed -2", "Reloading Speed -1"],
+        "skill_desc": ["ความเร็วในการรีโหลดสูงกว่าปกติ 3 ระดับ", "ความเร็วในการรีโหลดสูงกว่าปกติ 2 ระดับ", "ความเร็วในการรีโหลดสูงกว่าปกติ 1 ระดับ", "ความเร็วในการโหลดต่ำกว่าปกติ 1 ระดับ", "ความเร็วในการโหลดต่ำกว่าปกติ 2 ระดับ", "ความเร็วในการโหลดต่ำกว่าปกติ 3 ระดับ"],
+        "skill_point": ["+25", "+15", "+10", "-10", "-15", "-25"]
+      }, {
+        "name": "Recoil",
+        "skill_name": ["Recoil Reduction +2", "Recoil Reduction +1"],
+        "skill_desc": ["ลดแรงถีบ 2 ระดับ", "ลดแรงถีบ 1 ระดับ"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Rapid Fire",
+        "skill_name": ["Rapid Fire"],
+        "skill_desc": ["Bowguns สามารถใช้กระสุนจนกว่าจะเปลี่ยนประเภท แรงถีบจะไม่สามารถลบล้างได้, Bows จะเติมน้ำยาอัตโนมัติ"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Shot Mix",
+        "skill_name": ["Bullet Limit"],
+        "skill_desc": ["เพิ่มจำนวนกระสุนสูงสุดที่สามารถสร้างได้ในแต่ละชุด"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "NormalS Up",
+        "skill_name": ["Normal S Attack Up"],
+        "skill_desc": ["เพิ่มความเสียหายของ Normal S Shots +10%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "NormalSAdd",
+        "skill_name": ["Normal S All LV Add", "Normal S All LV1 Add"],
+        "skill_desc": ["Bowgun สามารถใช้ S LV2 และ LV3 ปกติได้", "S LV2 ปกติสามารถใช้ได้กับ Bowgun ทุกตัว ช็อตต่อการรีโหลดอาจแตกต่างกันไปตามอาวุธ"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "PierceS Up",
+        "skill_name": ["Pierce S Attack Up"],
+        "skill_desc": ["เพิ่มความเสียหายของ Pierce S Shots +10%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "PierceSAdd",
+        "skill_name": ["Pierce S All LV Add", "Pierce S All LV1+2 Add", "Pierce S All LV1 Add"],
+        "skill_desc": ["Pierce S LV1, LV2 และ LV3 ใช้ได้", "Pierce S LV1 และ LV2 ใช้ได้", "Pierce S LV1 ใช้ได้"],
+        "skill_point": ["+25", "+15", "+10"]
+      }, {
+        "name": "PelletS Up",
+        "skill_name": ["Pellet S Attack Up"],
+        "skill_desc": ["เพิ่มความเสียหายของ Pellet S Shots +10%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "PelletSAdd",
+        "skill_name": ["Pellet S All LV Add", "Pellet S All LV1+2 Add", "Pellet S All LV1 Add"],
+        "skill_desc": ["Pellet S LV1, LV2 และ LV3 ใช้ได้", "Pellet S LV1 และ LV2 ใช้ได้", "Pellet S LV1 ใช้ได้"],
+        "skill_point": ["+25", "+15", "+10"]
+      }, {
+        "name": "BmbShotAdd",
+        "skill_name": ["Crag S All LV Add", "Crag S LV1+2 Add", "Crag S LV1 Add"],
+        "skill_desc": ["Crag S LV1, LV2 และ LV3 ใช้ได้", "Crag S LV1 และ LV2 ใช้ได้", "Crag S LV1 ใช้ได้"],
+        "skill_point": ["+25", "+15", "+10"]
+      }, {
+        "name": "ClustS Add",
+        "skill_name": ["Clust S All LV Add", "Clust S LV1+2 Add", "Clust S LV1 Add"],
+        "skill_desc": ["Clust S LV1, LV2 และ LV3 ใช้ได้", "Clust S LV1 และ LV2 ใช้ได้", "Clust S LV1 ใช้ได้"],
+        "skill_point": ["+25", "+15", "+10"]
+      }, {
+        "name": "Strength",
+        "skill_name": ["Strength+30", "Strength+20", "Strength+10", "Strength-10", "Strength-20"],
+        "skill_desc": ["เพิ่มพลังชีวิต 30 หน่วย", "เพิ่มพลังชีวิต 20 หน่วย", "เพิ่มพลังชีวิต 10 หน่วย", "ลดพลังชีวิต 10 หน่วย", "ลดพลังชีวิต 15 หน่วย"],
+        "skill_point": ["+25", "+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Rec Speed",
+        "skill_name": ["Damage Rec Speed +2", "Damage Rec Speed +1", "Damage Rec Speed -1", "Damage Rec Speed -2"],
+        "skill_desc": ["เพิ่มความเร็วฟื้นฟูเลือดแดงอย่างมาก", "เพิ่มความเร็วฟื้นฟูเลือดแดงมาก", "ลดความเร็วฟื้นฟูเลือดแดงมาก", "ลดความเร็วฟื้นฟูเลือดแดงอย่างมาก"],
+        "skill_point": ["+25", "+10", "-10", "-25"]
+      }, {
+        "name": "Hunger",
+        "skill_name": ["Damage Rec Speed +2", "Damage Rec Speed +1", "Damage Rec Speed -1", "Damage Rec Speed -2"],
+        "skill_desc": ["ไม่ลด Stamina", "ลด Stamina 0.5 เท่า", "ลด Stamina 1.5 เท่า", "ลด Stamina 2.0 เท่า"],
+        "skill_point": ["+15", "+10", "-10", "-25"]
+      }, {
+        "name": "Attack  อาวุธ [ดาบใหญ่/ดาบยาว - 4.8][ดาบโล่/ดาบคู่ - 1.4][ค้อน/ขลุ่ย - 5.2][หอก/หอกปืน - 2.3][ปืนเบา/ปืนหนัก/ธนู - 1.2]",
+        "skill_name": ["Attack Up (Large)", "Attack Up (Medium)", "Attack Up (Small)"],
+        "skill_desc": ["เพิ่มพลังโจมตี (อาวุธx20)", "เพิ่มพลังโจมตี (อาวุธx15)", "เพิ่มพลังโจมตี (อาวุธx10)"],
+        "skill_point": ["+25", "+15", "+10"]
+      }, {
+        "name": "Spc Attack",
+        "skill_name": ["Abnormal Sts Atk Up"],
+        "skill_desc": ["เพิ่มประสิทธิภาพของอาวุธที่มีคุณสมบัติ Poison, Paralyze หรือ Sleep"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Defense",
+        "skill_name": ["Defense +20", "Defense +15", "Defense +10", "Defense -10", "Defense -15", "Defense -20"],
+        "skill_desc": ["เพิ่มพลังป้องกัน 20 หน่วย", "เพิ่มพลังป้องกัน 15 หน่วย", "เพิ่มพลังป้องกัน 10 หน่วย", "ลดพลังป้องกัน 10 หน่วย", "ลดพลังป้องกัน 15 หน่วย", "ลดพลังป้องกัน 20 หน่วย"],
+        "skill_point": ["+25", "+15", "+10", "-10", "-15", "-25"]
+      }, {
+        "name": "Protection",
+        "skill_name": ["Divine Protection", "Demonic Protection"],
+        "skill_desc": ["โอกาส 25% ที่จะได้รับความเสียหายจากการโจมตีลดลง 30%", "โอกาส 25% ที่จะได้รับความเสียหายจากการโจมตีเพิ่มขึ้น 30%"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Worry",
+        "skill_name": ["Stealth", "Provocation"],
+        "skill_desc": ["ลดโอกาสมอนสเตอร์จ้องจะเล่นคุณเมื่อเล่นแบบ Multiplayer", "เพิ่มโอกาสมอนสเตอร์จ้องจะเล่นคุณเมื่อเล่นแบบ Multiplayer"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Fire Res",
+        "skill_name": ["Fire Res +10", "Fire Res +5", "Fire Res +3", "Fire Res -3", "Fire Res -5", "Fire Res -10"],
+        "skill_desc": ["เพิ่มความต้าน Fire 10 หน่วย", "เพิ่มความต้าน Fire 5 หน่วย", "เพิ่มความต้าน Fire 3 หน่วย", "เพิ่มความต้าน Fire -3 หน่วย", "เพิ่มความต้าน Fire -5 หน่วย", "เพิ่มความต้าน Fire -10 หน่วย"],
+        "skill_point": ["+25", "+15", "+10", "-10", "-15", "-25"]
+      }, {
+        "name": "ThunderRes",
+        "skill_name": ["Thunder Res +10", "Thunder Res +5", "Thunder Res +3", "Thunder Res -3", "Thunder Res -5", "Thunder Res -10"],
+        "skill_desc": ["เพิ่มความต้าน Thunder 10 หน่วย", "เพิ่มความต้าน Thunder 5 หน่วย", "เพิ่มความต้าน Thunder 3 หน่วย", "เพิ่มความต้าน Thunder -3 หน่วย", "เพิ่มความต้าน Thunder -5 หน่วย", "เพิ่มความต้าน Thunder -10 หน่วย"],
+        "skill_point": ["+25", "+15", "+10", "-10", "-15", "-25"]
+      }, {
+        "name": "Water Res",
+        "skill_name": ["Water Res +10", "Water Res +5", "Water Res +3", "Water Res -3", "Water Res -5", "Water Res -10"],
+        "skill_desc": ["เพิ่มความต้าน Water 10 หน่วย", "เพิ่มความต้าน Water 5 หน่วย", "เพิ่มความต้าน Water 3 หน่วย", "เพิ่มความต้าน Water -3 หน่วย", "เพิ่มความต้าน Water -5 หน่วย", "เพิ่มความต้าน Water -10 หน่วย"],
+        "skill_point": ["+25", "+15", "+10", "-10", "-15", "-25"]
+      }, {
+        "name": "Dragon Res",
+        "skill_name": ["Dragon Res +10", "Dragon Res +5", "Dragon Res +3", "Dragon Res -3", "Dragon Res -5", "Dragon Res -10"],
+        "skill_desc": ["เพิ่มความต้าน Dragon 10 หน่วย", "เพิ่มความต้าน Dragon 5 หน่วย", "เพิ่มความต้าน Dragon 3 หน่วย", "เพิ่มความต้าน Dragon -3 หน่วย", "เพิ่มความต้าน Dragon -5 หน่วย", "เพิ่มความต้าน Dragon -10 หน่วย"],
+        "skill_point": ["+25", "+15", "+10", "-10", "-15", "-25"]
+      }, {
+        "name": "All Res",
+        "skill_name": ["All Res +5", "All Res +3", "All Res -3"],
+        "skill_desc": ["ต้านทานทุกธาตุเพิ่มขึ้น 5", "ต้านทานทุกธาตุเพิ่มขึ้น 3", "ต้านทานทุกธาตุลดลง 3"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Heat Res",
+        "skill_name": ["Anti-Heat", "Heat Reduced By Half", "Heat Inc (x1.5)", "Heat Inc (x2)"],
+        "skill_desc": ["ไม่ร้อน", "Health ลด 0.5 เท่า", "Health ลด 1.5 เท่า", "Health ลด 2.1 เท่า"],
+        "skill_point": ["+15", "+10", "-10", "-25"]
+      }, {
+        "name": "Cold Res",
+        "skill_name": ["Anti-Cold", "Cold Reduced By Half", "Cold Inc (x1.5)", "Cold Inc (x2)"],
+        "skill_desc": ["ไม่หนาว", "Stamina ลด 0.5 เท่า", "Stamina ลด 1.5 เท่า", "Stamina ลด 2.1 เท่า"],
+        "skill_point": ["+15", "+10", "-10", "-25"]
+      }, {
+        "name": "Faint",
+        "skill_name": ["Knock Out Negated", "Konckout Prob Halved", "KO Duration (x2)"],
+        "skill_desc": ["ไม่ติด Stun", "เวลา Stun 0.5 เท่า", "เวลา Stun 2.0 เท่า"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Poison",
+        "skill_name": ["Poison Negated", "Poison Dur Halved", "Poison Duration (x2)", "Poison Duration (x3)", "Poison Duration (x4)"],
+        "skill_desc": ["ไม่ติด Poison", "เวลา Poison 0.5 เท่า", "เวลา Poison 2.0 เท่า", "เวลา Poison 3.0 เท่า", "เวลา Poison 4.0 เท่า"],
+        "skill_point": ["+15", "+10", "-10", "-15", "-25"]
+      }, {
+        "name": "Paralysis",
+        "skill_name": ["Paralysis Negated", "Paralysis Dur Halved", "Paralysis Duration (x2)"],
+        "skill_desc": ["ไม่ติด Paralysis", "เวลา Paralysis 0.5 เท่า", "เวลา Paralysis 2.0 เท่า"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Sleep",
+        "skill_name": ["Sleep Negated", "Sleep Dur Halved", "Sleep Duration (x2)"],
+        "skill_desc": ["ไม่ติด Sleep", "เวลา Sleep 0.5 เท่า", "เวลา Sleep 2.0 เท่า"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "HearProtct",
+        "skill_name": ["High Grade Earplug", "Earplug"],
+        "skill_desc": ["ป้องกันเสียงมอนสเตอร์ทุกตัว", "ป้องกันเสียงมอนสเตอร์บางตัว"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "WindPress",
+        "skill_name": ["High Wind Res", "Low Wind Res"],
+        "skill_desc": ["ป้องกันลมมอนสเตอร์ทุกตัว", "ป้องกันลมมอนสเตอร์บางตัว"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "StealNoEff",
+        "skill_name": ["Anti-Theft"],
+        "skill_desc": ["ป้องกันของโดนขโมย"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Alchemy",
+        "skill_name": ["Alchemy"],
+        "skill_desc": ["ให้สิทธิ์การเข้าถึง Combination เพิ่มเติม"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "MixSucRate",
+        "skill_name": ["Combination Success +20%", "Combination Success +10%", "Combination Success +5%", "Combination Success -5%", "Combination Success -10%", "Combination Success -15%"],
+        "skill_desc": ["เพิ่มโอกาส Combination จะสำเร็จ 20%", "เพิ่มโอกาส Combination จะสำเร็จ 10%", "เพิ่มโอกาส Combination จะสำเร็จ 5%", "ลดโอกาส Combination จะสำเร็จ 5%", "ลดโอกาส Combination จะสำเร็จ 10%", "ลดโอกาส Combination จะสำเร็จ 15%"],
+        "skill_point": ["+25", "+15", "+10", "-10", "-15", "-25"]
+      }, {
+        "name": "Map",
+        "skill_name": ["Farsight", "Map Unavailable"],
+        "skill_desc": ["แสดงแผนที่อัตโนมัติ", "ไม่แสดงแผนที่แม้จะมี Item แผนที่ก็ตาม"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "PsychicVis",
+        "skill_name": ["Autotracker", "Detect"],
+        "skill_desc": ["ให้ข้อมูลมอนเตอร์(สีน้ำเงินเมื่อสงบ สีแดงเมื่อโกรธ)", "ให้ข้อมูลมอนเตอร์เมื่อปา Paintball (สีน้ำเงินเมื่อสงบ สีแดงเมื่อโกรธ)"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Whim",
+        "skill_name": ["Divine Whim", "Spirit's Whim", "Spectre's Whim", "Devil's Whim"],
+        "skill_desc": ["ป้องกันการแตกเพิ่มขึ้น 50%", "ป้องกันการแตกเพิ่มขึ้น 25%", "ป้องกันการแตกลดลง 25%", "ป้องกันการแตกลดลง 50%"],
+        "skill_point": ["+15", "+10", "-10", "-25"]
+      }, {
+        "name": "Throw",
+        "skill_name": ["Throwing Skill Up"],
+        "skill_desc": ["เพิ่มระยะงของสิ่งที่ขว้าง"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "BombStrUp",
+        "skill_name": ["Bomber"],
+        "skill_desc": ["เพิ่มพลังของ Barrel Bombs"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Flute",
+        "skill_name": ["Flute Expert"],
+        "skill_desc": ["ลดโอกาสที่ขลุ่ยจะแตกหลังการใช้งาน"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Gluttony",
+        "skill_name": ["Speed Eater", "Eating +2", "Eating +1"],
+        "skill_desc": ["ลดระยะเวลาการกินเนื่อ", "เพิ่ม Stamina เมื่อกินยาหรือ Herbs", "โอกาส 25% Stamina เพิ่มขึ้นเมื่อกินปลา"],
+        "skill_point": ["+25", "+15", "+10"]
+      }, {
+        "name": "Recovery",
+        "skill_name": ["HealthRecItemsImprvd", "Str Rec Item Weak"],
+        "skill_desc": ["เพิ่มประสิทธิภาพของไอเท็มการรักษา", "ลดประสิทธิภาพของไอเท็มการรักษา"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "WideEffect",
+        "skill_name": ["WideAreaPwrArmEffect"],
+        "skill_desc": ["Power Seed และ Armor Seed เมื่อกินจะเพิ่มผู้เล่นอื่นในพื้นที่เดียวกันได้ผล 100%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Wide Cntr",
+        "skill_name": ["WideAreaAntidote"],
+        "skill_desc": ["ยาแก้พิษรักษาเพื่อนร่วมทีม"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Wide Rec",
+        "skill_name": ["Wide Area Recovery", "Herbal Med Wide"],
+        "skill_desc": ["Potion และ Herb เมื่อกินจะเพิ่มผู้เล่นอื่นในพื้นที่เดียวกันได้ผล 100%", "Potion และ Herb เมื่อกินจะเพิ่มผู้เล่นคนอื่นในพื้นที่เดียวกันด้วยได้ผล 50%"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Gathering",
+        "skill_name": ["Gathering +2", "Gathering +1", "Gathering -2", "Gathering -2"],
+        "skill_desc": ["มีโอกาสสูงที่จะเก็บมากขึ้น", "มีโอกาสที่จะเก็บมากขึ้น", "มีโอกาสที่จะเก็บน้อยลง", "มีโอกาสต่ำที่จะเก็บน้อยลง"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "HiSpdGathr",
+        "skill_name": ["High Speed Gathering"],
+        "skill_desc": ["เก็บ แร้เนื้อ ไวขึ้น"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Backpacking",
+        "skill_name": ["Backpack Expert"],
+        "skill_desc": ["เพิ่มความเร็วในการเคลื่อนที่และระยะการตกขณะถือของ"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Fishing",
+        "skill_name": ["Fishing Expert"],
+        "skill_desc": ["ช่วยให้จับปลาได้ง่ายขึ้นระหว่างทำภารกิจและที่ฟาร์มโคโคโตะ"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Fate",
+        "skill_name": ["Luck Booster", "Good Luck", "Bad Luck", "Calamity"],
+        "skill_desc": ["โอกาสสูงที่จะได้รับรางวัลภารกิจมากขึ้น", "โอกาสต่ำที่จะได้รับรางวัลภารกิจมากขึ้น", "โอกาสต่ำที่จะได้รับรางวัลภารกิจน้อยลง", "โอกาสต่ำที่จะได้รับรางวัลภารกิจน้อยลง"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }
+    ],
+    "skilArmorFU": [
+      {
+        "name": "Attack อาวุธ [ดาบใหญ่/ดาบยาว - 4.8][ดาบโล่/ดาบคู่ - 1.4][ค้อน/ขลุ่ย - 5.2][หอก/หอกปืน - 2.3][ปืนเบา/ปืนหนัก/ธนู - 1.2]",
+        "skill_name": ["Attack Up (Large)", "Attack Up (Medium)", "Attack Up (Small)", "Attack Down (Small)", "Attack Down (Medium)", "Attack Down (Large)"],
+        "skill_desc": ["เพิ่มพลังโจมตี (อาวุธx20)", "เพิ่มพลังโจมตี (อาวุธx15)", "เพิ่มพลังโจมตี (อาวุธx10)", "ลดพลังโจมตี (อาวุธx-10)", "ลดพลังโจมตี (อาวุธx-15)", "ลดพลังโจมตี (อาวุธx-20)"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Defense",
+        "skill_name": ["Defense +40", "Defense +30", "Defense +20", "Defense -20", "Defense -30", "Defense -20"],
+        "skill_desc": ["เพิ่มพลังป้องกัน 40", "เพิ่มพลังป้องกัน 30", "เพิ่มพลังป้องกัน 20", "ลดพลังป้องกัน 20", "ลดพลังป้องกัน 20", "ลดพลังป้องกัน 20"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Health",
+        "skill_name": ["Health +50", "Health +30", "Health +20", "Health -10", "Health -20", "Health -30"],
+        "skill_desc": ["เพิ่มเลือด 50", "เพิ่มเลือด 30", "เพิ่มเลือด 20", "ลดเลือด 10", "ลดเลือด 20", "ลดเลือด 30"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Hunger",
+        "skill_name": ["Hunger Negate", "Hunger Halved", "Hunger Inc[Lo]", "Hunger Inc[Hi]"],
+        "skill_desc": ["แถบความแข็งแกร่งจะไม่ลดลง", "แถบความแข็งแกร่งลดลงช้าลง x0.5", "แถบความแข็งแกร่งลดลงเร็วขึ้น x1.5", "แถบความแข็งแกร่งลดลง x2.0 เร็วขึ้น"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Heat Resistance",
+        "skill_name": ["Heat Cancel[Hi]", "Heat Cancel[Lo]", "Heat Inc[Lo]"],
+        "skill_desc": ["กันร้อนได้ทุกที่", "กันร้อนได้บางที่", "ร้อนขึ้นx1.5"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Cold Resistance",
+        "skill_name": ["Cold Elim[Hi]", "Cold Elim[Lo]", "Cold Inc[Lo]"],
+        "skill_desc": ["กันเย็นได้ทุกที่", "กันเย็นได้บางที่", "เย็นขึ้นx1.5"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Artisan",
+        "skill_name": ["Sharpness +1"],
+        "skill_desc": ["เพิ่มความคม *บางอาวุธคมสุดแล้วไม่สามารถเพิ่มได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Sharpness",
+        "skill_name": ["Sharp Sword", "Blunt Edge"],
+        "skill_desc": ["ลดความคมx0.5 *ดาบคู่มีทักษะนี้", "ลดความคมx2"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Fencing",
+        "skill_name": ["ESP"],
+        "skill_desc": ["โจมตีไม่เด้ง"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Sword Sharpener",
+        "skill_name": ["Sharping Skl Inc", "Sharp Skl Halved"],
+        "skill_desc": ["ลับหินเร็วขึ้น", "ลับหินได้ความคมครึ่งนึง"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Guard",
+        "skill_name": ["Guard+2", "Guard+1", "Guard-1"],
+        "skill_desc": ["เวลาบล็อกลด Stamina/เสียหาย/ถอยหลัง อย่างมาก", "เวลาบล็อกลด Stamina/เสียหาย/ถอยหลัง", "เวลาบล็อกเพิ่ม Stamina/เสียหาย/ถอยหลัง"],
+        "skill_point": ["+20", "+10", "-10"]
+      }, {
+        "name": "Auto-Guard",
+        "skill_name": ["Auto-Guard"],
+        "skill_desc": ["ป้องกันอัตโนมัติถ้าสามารถกดป้องกันได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Sword Draw",
+        "skill_name": ["Art of Unsheathing"],
+        "skill_desc": ["เมื่อชักดาบจะเพิ่ม Affinity 100%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "NormS Up",
+        "skill_name": ["NormS/RapidBow Up"],
+        "skill_desc": ["เพิ่มความเสียหายของ NormS/Rapid Shots +10%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "PierceS Up",
+        "skill_name": ["PrceS/PrceBow Up"],
+        "skill_desc": ["เพิ่มความเสียหายของ PierceS/Pierce Shots +10%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "PelletS Up",
+        "skill_name": ["PellS/ScattBow Up"],
+        "skill_desc": ["เพิ่มความเสียหายของ PelletS/Spread Shots +30%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "NormS Add",
+        "skill_name": ["NormS All LV Add", "NormS LV1 Add"],
+        "skill_desc": ["ปิดใช้งาน Norm LV 1, 2 และ 3 แล้ว", "เปิดใช้งาน Norm LV 1 แล้ว"],
+        "skill_point": ["+20", "+15"]
+      }, {
+        "name": "PierceS Add",
+        "skill_name": ["PierceS All LV Ad", "PierceS LV1 Add"],
+        "skill_desc": ["เปิดใช้งาน Pierce LV 1, 2 และ 3 แล้ว", "เปิดใช้งาน Pierce LV 1 แล้ว"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "PelletS Add",
+        "skill_name": ["PelletS All LV Ad", "PelletS LV1 Add"],
+        "skill_desc": ["เปิดใช้งานเม็ด LV 1, 2 และ 3 แล้ว", "เปิดใช้งาน Pellet LV 1 แล้ว"],
+        "skill_point": ["+15", "+1"]
+      }, {
+        "name": "CragS Add",
+        "skill_name": ["CragS All LV Ad", "CragS LV1 Add"],
+        "skill_desc": ["เปิดใช้งาน Crag LV 1, 2 และ 3 แล้ว", "เปิดใช้งาน Crag LV 1 แล้ว"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Clust Add",
+        "skill_name": ["ClustS All LV Ad", "ClustS LV1 Add"],
+        "skill_desc": ["เปิดใช้งาน ClustS LV 1, 2 และ 3 แล้ว", "เปิดใช้งาน ClustS LV 1 แล้ว"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Auto Reload",
+        "skill_name": ["Auto Reload"],
+        "skill_desc": ["ไม่ต้องบรรจุกระสุนจนกว่าจะเปลี่ยนประเภท"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Reload",
+        "skill_name": ["Reload Speed +3", "Reload Speed +2", "Reload Speed +1", "Reload Speed -1", "Reload Speed -2"],
+        "skill_desc": ["ความเร็วในการโหลดเพิ่มขึ้น 3", "ความเร็วในการโหลดเพิ่มขึ้น 2", "ความเร็วในการโหลดเพิ่มขึ้น 1", "ความเร็วในการโหลดลดลง 1", "ความเร็วในการโหลดลดลง 2"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Recoil",
+        "skill_name": ["Recoil Reduct +2", "Recoil Reduct +1", "Recoil Inc +1", "Recoil Inc +2"],
+        "skill_desc": ["แรงถีบกลับจากปืนลดลง 4", "แรงถีบกลับจากปืนลดลง 2", "แรงถีบกลับจากปืนเพิ่มขึ้น 1", "แรงถีบกลับจากปืนเพิ่มขึ้น 2"],
+        "skill_point": ["+20", "+10", "-10", "-15"]
+      }, {
+        "name": "Capacity",
+        "skill_name": ["Load Up"],
+        "skill_desc": ["+1 ระดับการชาร์จกระสุน/ธนูที่มีอยู่"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Precision",
+        "skill_name": ["Target Range Down", "Target Range Up"],
+        "skill_desc": ["การอยู่นอกศูนย์กลางลดลง", "การอยู่นอกศูนย์กลางเพิ่มขึ้น"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Expert",
+        "skill_name": ["Reckless Abandon+3", "Reckless Abandon+2", "Reckless Abandon+1", "-1 Reckless Abandon"],
+        "skill_desc": ["เพิ่ม Affinity +30%", "เพิ่ม Affinity +20%", "เพิ่ม Affinity +10%", "เพิ่ม Affinity -10%"],
+        "skill_point": ["+20", "+15", "+10", "-10"]
+      }, {
+        "name": "Special Attack",
+        "skill_name": ["Spc Atk Up"],
+        "skill_desc": ["เพิ่มสถานะเจ็บป่วยขึ้น x1.125"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Elemental Attack",
+        "skill_name": ["Elem Atk Up"],
+        "skill_desc": ["เพิ่มความเสียหายธาตุ x1.2"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Guard Up",
+        "skill_name": ["Guard Inc"],
+        "skill_desc": ["สามารถป้องกันการโจมตีทั้งหมดได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "HearProtct",
+        "skill_name": ["High Grade Earplug", "Earplug"],
+        "skill_desc": ["ภูมิคุ้มกันต่อเสียงคำรามทั้งหมด", "ภูมิคุ้มกันต่อเสียงคำรามบางส่วน"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Wind Press",
+        "skill_name": ["Drg Wind Breaker", "High Wind Pres", "Low Wind Pres"],
+        "skill_desc": ["ภูมิคุ้มกันต่อลมกดทั้งหมด", "ภูมิคุ้มกันต่อลมบางส่วน", "ภูมิคุ้มกันต่อลมกดขนาดเล็ก"],
+        "skill_point": ["+20", "+15", "+10"]
+      }, {
+        "name": "Gunnery",
+        "skill_name": ["Gunnery King", "Gunnery Master"],
+        "skill_desc": ["เพิ่ม Cragx2.0, Ballista/Cannon/Gunlance Shelling/Wyvern Firex1.2, Wyvern Fire 120 เป็น 90", "เพิ่ม Cragx1.5, Ballista/Cannon/Gunlance Shelling/Wyvern Fire x1.1"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Short Charge",
+        "skill_name": ["Focus", "Distracted"],
+        "skill_desc": ["เพิ่มเวลาในการชาร์จ", "ลดเวลาในการชาร์จ"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Guts",
+        "skill_name": ["Guts"],
+        "skill_desc": ["ช่วยกัน KO 1 ครั้งหากเลือดมากกว่า 65"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Guts",
+        "skill_name": ["FarSight", "No Map"],
+        "skill_desc": ["แสดงแผนที่อัตโนมัติ", "ไม่แสดงแผนที่ *แม้มีไอเทมแผนที่ก็ตาม"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Psychic Vision *สีน้ำเงินปรกติ สีแดงโกรธ เท่าตาย",
+        "skill_name": ["Autotracker", "Detect"],
+        "skill_desc": ["แสดงสีมอนเตอร์อัตโนมัติ", "แสดงสีมอนเตอร์เมื่อปาบอล"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Perceive",
+        "skill_name": ["Tranq Guru"],
+        "skill_desc": ["ปาบอลหรือใช้ Autotracker มอนจะแสดงสีเหลืองบ่งบอกว่าสามารถจับได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Tranquilizer",
+        "skill_name": ["Tranq Celeb", "Tranq Whiz"],
+        "skill_desc": ["มักจะเพิ่มโอกาสในการได้รับรางวัลจากการจับมากขึ้น", "บางครั้งจะเพิ่มโอกาสในการได้รับรางวัลจากการจับมากขึ้น"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "All Res",
+        "skill_name": ["All Res +10", "All Res +5", "All Res +3", "All Res -3", "All Res -5", "All Res -10"],
+        "skill_desc": ["เพิ่มความต้านทานความเสียหายธาตุทั้งหมด +10", "เพิ่มความต้านทานความเสียหายธาตุทั้งหมด +5", "เพิ่มความต้านทานความเสียหายธาตุทั้งหมด 3", "ลดความต้านทานความเสียหายธาตุทั้งหมด -3", "เพิ่มความต้านทานความเสียหายธาตุทั้งหมด -5", "เพิ่มความต้านทานความเสียหายธาตุทั้งหมด -10"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Fire Res",
+        "skill_name": ["Fire Res +15", "Fire Res +10", "Fire Res +5", "Fire Res -5", "Fire Res -10", "Fire Res -15"],
+        "skill_desc": ["เพิ่มความต้านทานความเสียหายธาตุไฟ +10", "เพิ่มความต้านทานความเสียหายธาตุไฟ +5", "เพิ่มความต้านทานความเสียหายธาตุไฟ 3", "ลดความต้านทานความเสียหายธาตุไฟ -3", "เพิ่มความต้านทานความเสียหายธาตุไฟ -5", "เพิ่มความต้านทานความเสียหายธาตุไฟ -10"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Ice Res",
+        "skill_name": ["Ice Res +15", "Ice Res +10", "Ice Res +5", "Ice Res -5", "Ice Res -10", "Ice Res -15"],
+        "skill_desc": ["เพิ่มความต้านทานความเสียหายธาตุน้ำแข็ง +10", "เพิ่มความต้านทานความเสียหายธาตุน้ำแข็ง +5", "เพิ่มความต้านทานความเสียหายธาตุน้ำแข็ง 3", "ลดความต้านทานความเสียหายธาตุน้ำแข็ง -3", "เพิ่มความต้านทานความเสียหายธาตุน้ำแข็ง -5", "เพิ่มความต้านทานความเสียหายธาตุน้ำแข็ง -10"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Water Res",
+        "skill_name": ["Water Res +15", "Water Res +10", "Water Res +5", "Water Res -5", "Water Res -10", "Water Res -15"],
+        "skill_desc": ["เพิ่มความต้านทานความเสียหายธาตุน้ำ +10", "เพิ่มความต้านทานความเสียหายธาตุน้ำ +5", "เพิ่มความต้านทานความเสียหายธาตุน้ำ 3", "ลดความต้านทานความเสียหายธาตุน้ำ -3", "เพิ่มความต้านทานความเสียหายธาตุน้ำ -5", "เพิ่มความต้านทานความเสียหายธาตุน้ำ -10"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Thunder Res",
+        "skill_name": ["Thunder Res +15", "Thunder Res +10", "Thunder Res +5", "Thunder Res -5", "Thunder Res -10", "Thunder Res -15"],
+        "skill_desc": ["เพิ่มความต้านทานความเสียหายธาตุไฟฟ้า +10", "เพิ่มความต้านทานความเสียหายธาตุไฟฟ้า +5", "เพิ่มความต้านทานความเสียหายธาตุไฟฟ้า 3", "ลดความต้านทานความเสียหายธาตุไฟฟ้า -3", "เพิ่มความต้านทานความเสียหายธาตุไฟฟ้า -5", "เพิ่มความต้านทานความเสียหายธาตุไฟฟ้า -10"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Dragon Res",
+        "skill_name": ["Dragon Res +15", "Dragon Res +10", "Dragon Res +5", "Dragon Res -5", "Dragon Res -10", "Dragon Res -15"],
+        "skill_desc": ["เพิ่มความต้านทานความเสียหายธาตุมังกร +10", "เพิ่มความต้านทานความเสียหายธาตุมังกร +5", "เพิ่มความต้านทานความเสียหายธาตุมังกร 3", "ลดความต้านทานความเสียหายธาตุมังกร -3", "เพิ่มความต้านทานความเสียหายธาตุมังกร -5", "เพิ่มความต้านทานความเสียหายธาตุมังกร -10"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Wide Area",
+        "skill_name": ["Wide Area +2", "Wide Area +1"],
+        "skill_desc": ["เอฟเฟกต์ไอเทมจะกระจาย 100%", "เอฟเฟกต์ไอเทมจะกระจาย 50%"],
+        "skill_point": ["+20", "+10"]
+      }, {
+        "name": "Throw",
+        "skill_name": ["Throwing Sk Up"],
+        "skill_desc": ["เพิ่มระยะห่างของสิ่งของที่ขว้าง (มีดขว้าง ก้อนหิน เพนท์บอล ระเบิดแฟลช/โซนิค/ทรานคิว) และลดโอกาสที่บูมเมอแรงจะแตก"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Bomber Strength Up",
+        "skill_name": ["Bomber"],
+        "skill_desc": ["เพิ่มความเสียหายที่เกิดจากระเบิดหรือการโจมตีด้วยระเบิด x1.5 เพิ่มอัตราความสำเร็จในการรวมระเบิดเป็น 100%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Gluttony",
+        "skill_name": ["Scavenger", "Filled Up"],
+        "skill_desc": ["สามารถรับความแข็งแกร่งเพิ่มขึ้นจากไอเท็มการรักษา", "สามารถรับความแข็งแกร่งเพิ่มขึ้นจากสเต็กปลา"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Recovery",
+        "skill_name": ["HealthRecItemsImprvd", "HltRecItemWeakened"],
+        "skill_desc": ["ประสิทธิภาพของไอเท็มการรักษาเพิ่มขึ้น 25%", "ประสิทธิภาพของไอเท็มการรักษาลดลง 25%"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Speed Setup",
+        "skill_name": ["Trap Master"],
+        "skill_desc": ["เพิ่มความเร็วในการติดกับดัก"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Recovery Speed",
+        "skill_name": ["Damage Rec Spd+2", "Damage Rec Spd+1", "Damage Rec Spd-1"],
+        "skill_desc": ["พลังชีวิตส่วนสีแดงจะฟื้นตัวเร็วกว่าปกติ 4 เท่า", "พลังชีวิตส่วนสีแดงจะฟื้นตัวเร็วกว่าปกติ 2 เท่า", "พลังชีวิตส่วนสีแดงจะฟื้นตัวช้ากว่าปกติ 2 เท่า"],
+        "skill_point": ["+20", "+10", "-10"]
+      }, {
+        "name": "Combination Success Rate",
+        "skill_name": ["Comb Suc+45%", "Comb Suc+25%", "Comb Suc+15%", "Comb Suc-10%"],
+        "skill_desc": ["เพิ่มอัตราความสำเร็จของคอมโบ 45%", "เพิ่มอัตราความสำเร็จของคอมโบ 25%", "เพิ่มอัตราความสำเร็จของคอมโบ 15%", "เพิ่มอัตราความสำเร็จของคอมโบ -10%"],
+        "skill_point": ["+20", "+15", "+10", "-10"]
+      }, {
+        "name": "Shot Mix",
+        "skill_name": ["Bullet Limit"],
+        "skill_desc": ["เพิ่มจำนวน Shot/Coatings สูงสุดที่สามารถทำได้ในแต่ละชุด"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Alchemy",
+        "skill_name": ["Alchemy"],
+        "skill_desc": ["อนุญาตให้ผู้เล่นใช้การเล่นแร่แปรธาตุ"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Gathering",
+        "skill_name": ["Gathering+2", "Gathering+1", "Gathering-1", "Gathering-2"],
+        "skill_desc": ["เพิ่มโอกาสในการเก็บเพิ่มอย่างมาก", "เพิ่มโอกาสในการเก็บเพิ่มเล็กน้อย", "มีโอกาสเล็กน้อยที่การเก็บจะลดลง", "มีโอกาสมากที่การเก็บจะลดลง"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "High Speed Gathering",
+        "skill_name": ["HighSpdGather"],
+        "skill_desc": ["เพิ่มความเร็วในการแกะสลัก การขุด การรวบรวม และการดักจับแมลง"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Fishing Expert",
+        "skill_name": ["Fishing Expert"],
+        "skill_desc": ["เพิ่มเวลาในการเกี่ยวปลาเมื่อกินเหยื่อ"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Carving",
+        "skill_name": ["Carving Celebrity", "Carving Iron Man"],
+        "skill_desc": ["สามารถแร้เพิ่มได้หนึ่งครั้ง", "แร้จะไม่ถูกขัดขวางจากการโจมตี"],
+        "skill_point": ["+20", "+10"]
+      }, {
+        "name": "Whim",
+        "skill_name": ["Divine Whim", "Spirit's Whim", "Spectre's Whim", "Devil's Whim"],
+        "skill_desc": ["ป้องกันการแตกหัก 50% ของเวลา", "ป้องกันการแตกหัก 25% ของเวลา", "มีโอกาสสองเท่าที่จะทำลาย 25% ของเวลา", "มีโอกาสสองเท่าที่จะทำลาย 50% ของเวลา"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Backpacking",
+        "skill_name": ["Backpacking Exp"],
+        "skill_desc": ["ความเร็วในการเคลื่อนที่เมื่อถือไข่เพิ่มขึ้นและอาจตกลงมาจากที่สูงได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Sneak",
+        "skill_name": ["Stealth", "Taunt"],
+        "skill_desc": ["มอนสเตอร์จ้องจะเล่นคุณอย่างน้อย", "มอนสเตอร์จ้องจะเล่นคุณอย่างมาก"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Protection",
+        "skill_name": ["Divine Protection", "Demonic Protection"],
+        "skill_desc": ["มีโอกาส 25% ที่จะได้รับความเสียหายจากการโจมตีลดลง 30%", "มีโอกาส 25% ที่จะได้รับความเสียหายจากการโจมตีเพิ่มขึ้น 30%"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Anti-Theft",
+        "skill_name": ["Steal No Effect"],
+        "skill_desc": ["ภูมิคุ้มกันต่อการขโมย"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Fate",
+        "skill_name": ["Luck Boost", "Good Luck", "Bad Luck", "Calamity"],
+        "skill_desc": ["โอกาสที่มากขึ้นสำหรับรางวัลที่เพิ่มขึ้น", "โอกาสที่จะได้รับรางวัลเพิ่มขึ้น", "โอกาสที่จะได้รับรางวัลลดลง", "โอกาสมากขึ้นสำหรับรางวัลที่ลดลง"],
+        "skill_point": ["+15", "+10", "-10", "-20"]
+      }, {
+        "name": "Evade",
+        "skill_name": ["Evade +2", "Evade +1"],
+        "skill_desc": ["เพิ่มระยะเวลาคงกระพันอย่างมากระหว่างการกลิ้งและการดำน้ำ", "เพิ่มระยะเวลาคงกระพันเล็กน้อยระหว่างกลิ้งและดำน้ำ"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Evade Distance",
+        "skill_name": ["Evade Distance +1"],
+        "skill_desc": ["เพิ่มระยะการกลิ้งและการดำน้ำ"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Constitution",
+        "skill_name": ["Constitution +2", "Constitution +1"],
+        "skill_desc": ["Stamina ที่ใช้ในการหมุน/พุ่งลดลงอย่างมาก", "Stamina ที่ใช้ในการหมุน/พุ่งลดลงครึ่งหนึ่ง"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Potential",
+        "skill_name": ["Adrenaline+2", "Adrenaline+1", "Worry"],
+        "skill_desc": ["+90 พลังป้องกัน, +30% พลังโจมตี", "+90 พลังป้องกัน", "พลังโจมตี -30%, เพิ่มพลังป้องกัน"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Everlasting",
+        "skill_name": ["Item Usage Improved", "Item Usage Decline"],
+        "skill_desc": ["ผลของไอเทมจะคงอยู่นานขึ้น 50%", "ระยะเวลาผลของไอเทมลดลง 40%"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Stamina",
+        "skill_name": ["Runner", "Flat Footed"],
+        "skill_desc": ["ลดความเร็วในการใช้ Stamina  [Running/Demonizing/กำลังชาร์จ Bow/Hammer/Lance]", "การใช้ Stamina เพิ่มขึ้น"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Cooking",
+        "skill_name": ["Quick Eating", "Slow Life"],
+        "skill_desc": ["เพิ่มความเร็วในการกิน", "ทำให้ความเร็วในการรับประทานอาหารลดลง"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "BBQ",
+        "skill_name": ["BBQ Celebrity", "So-called BBQ King"],
+        "skill_desc": ["ทำให้ Well-Done Steaks ได้ง่าย", "ทำให้ Well-Done Steaks ได้ยาก"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Comrade Guide",
+        "skill_name": ["Comrade Guidance&Trade", "Comrade Guidance"],
+        "skill_desc": ["เพิ่มประสบการณ์ Felyne Comrade และคะแนนทักษะที่ได้รับหลังภารกิจ", "เพิ่มคะแนนประสบการณ์ Felyne Comrade ที่ได้รับหลังภารกิจ"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Horn",
+        "skill_name": ["Flute Expert"],
+        "skill_desc": ["มีโอกาส 50% ที่จะป้องกันการแตกของขลุ่ย และเพิ่มเวลา 1 นาทีให้กับเพลง Hunting Horn ทั้งหมด"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Resist Status",
+        "skill_name": ["Self-Defense"],
+        "skill_desc": ["ภูมิคุ้มกันต่อการนอนหลับ, พิษ, อัมพาต และสถานะเป็นลม"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Fury",
+        "skill_name": ["Emboldened"],
+        "skill_desc": ["Guts and Adrenaline+2"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Edge Master",
+        "skill_name": ["Stellar Hunter"],
+        "skill_desc": ["Sharpness +1, Attack Up (Large)."],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Steady Hand",
+        "skill_name": ["Straight & True"],
+        "skill_desc": ["มีผลกับโบนัสการยิงทั้งหมด"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Anti-Fire Dragon",
+        "skill_name": ["Metallic Protection"],
+        "skill_desc": ["Terrain Damage Negate, Fire Resistance +10."],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Anti-Chameleos",
+        "skill_name": ["Fiery Protection"],
+        "skill_desc": ["ภูมิคุ้มกันต่อพิษ การขโมย และความเหนื่อยล้า"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Anti-Daora",
+        "skill_name": ["Frosty Protection"],
+        "skill_desc": ["ต้านทานหิมะและทำลายลมมังกร"],
+        "skill_point": ["+10"]
+      }
+    ],
+    "skilArmorP3": [
+      {
+        "name": "Health",
+        "skill_name": ["Health +50", "Health +20", "Health -10", "Health -30"],
+        "skill_desc": ["เพิ่มเลือด 50 หน่วย", "เพิ่มเลือด 20 หน่วย", "ลดเลือด 10 หน่วย", "ลดเลือด 30 หน่วย"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Rec Speed",
+        "skill_name": ["Recovery Spd +2", "Recovery Spd +1", "Recovery Spd -1", "Recovery Spd -2"],
+        "skill_desc": ["แถบเลือดสีแดงเพิ่มไวสุด", "แถบเลือดสีแดงเพิ่มไว", "แถบเลือดสีแดงเพิ่มช้า", "แถบเลือดสีแดงเพิ่มช้าสุด"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Attack",
+        "skill_name": ["Attack Up (L)", "Attack Up (M)", "Attack Up (S)", "Attack Down (S)", "Attack Down (M)", "Attack Down (L)"],
+        "skill_desc": ["เพิ่มพลังโจมตีขนาดใหญ่", "เพิ่มพลังโจมตีขนาดกลาง", "เพิ่มพลังโจมตีขนาดเล็ก", "ลดพลังโจมตีขนาดเล็ก", "ลดพลังโจมตีขนาดกลาง", "ลดพลังโจมตีขนาดใหญ่"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Defense",
+        "skill_name": ["Defense Up (L)", "Defense Up (M)", "Defense Up (S)", "Defense Down (S)", "Defense Down (M)", "Defense Down (L)"],
+        "skill_desc": ["เพิ่มพลังป้องกันขนาดใหญ่", "เพิ่มพลังป้องกันขนาดกลาง", "เพิ่มพลังป้องกันขนาดเล็ก", "ลดพลังป้องกันขนาดเล็ก", "ลดพลังป้องกันขนาดกลาง", "ลดพลังป้องกันขนาดใหญ่"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Expert",
+        "skill_name": ["Critical Eye +3", "Critical Eye +2", "Critical Eye +1", "Critical Eye -1", "Critical Eye -2", "Critical Eye -3"],
+        "skill_desc": ["เพิ่มค่า Affinity 30%", "เพิ่มค่า Affinity 20%", "เพิ่มค่า Affinity 10%", "ลดค่า Affinity 5%", "ลดค่า Affinity 10%", "ลดค่า Affinity 15%"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Potential",
+        "skill_name": ["Adrenaline +2", "Adrenaline +1", "Worrywart"],
+        "skill_desc": ["เลือดเหลือ 40% หรือต่ำกว่าจะได้พลังโจมตีX1.33และพลังป้องกัน+90", "เลือดเหลือน้อยพลังป้องกันจะเพิ่มขึ้น", "เลือดเหลือน้อยพลังโจมตีและพลังป้องกันจะลดลง"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Status",
+        "skill_name": ["Adrenaline +2", "Adrenaline +1", "Worrywart"],
+        "skill_desc": ["การโจมตีสถานะเพิ่มขึ้น 20%", "การโจมตีสถานะเพิ่มขึ้น 10%", "การโจมตีสถานะลดลง 10%"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Fire Atk",
+        "skill_name": ["Fire Attack +2", "Fire Attack +1", "Fire Attack Down"],
+        "skill_desc": ["การโจมตีธาตุไฟเพิ่มขึ้นสุด", "การโจมตีธาตุไฟเพิ่มขึ้น", "การโจมตีธาตุไฟลดลง"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Water Atk",
+        "skill_name": ["Water Attack +2", "Water Attack +1", "Water Attack Down"],
+        "skill_desc": ["การโจมตีธาตุน้ำเพิ่มขึ้นสุด", "การโจมตีธาตุน้ำเพิ่มขึ้น", "การโจมตีธาตุน้ำลดลง"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "ThunderAtk",
+        "skill_name": ["Thunder Attack +2", "Thunder Attack +1", "Thunder Attack Down"],
+        "skill_desc": ["การโจมตีธาตุสายฟ้าเพิ่มขึ้นสุด", "การโจมตีธาตุสายฟ้าเพิ่มขึ้น", "การโจมตีธาตุสายฟ้าลดลง"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Ice Atk",
+        "skill_name": ["Ice Attack +2", "Ice Attack +1", "Ice Attack Down"],
+        "skill_desc": ["การโจมตีธาตุน้ำแข็งเพิ่มขึ้นสุด", "การโจมตีธาตุน้ำแข็งเพิ่มขึ้น", "การโจมตีธาตุน้ำแข็งลดลง"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Dragon Atk",
+        "skill_name": ["Dragon Attack +2", "Dragon Attack +1", "Dragon Attack Down"],
+        "skill_desc": ["การโจมตีธาตุมังกรเพิ่มขึ้นสุด", "การโจมตีธาตุมังกรเพิ่มขึ้น", "การโจมตีธาตุมังกรลดลง"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Elemental",
+        "skill_name": ["Element Atk Up", "Element Atk Down"],
+        "skill_desc": ["การโจมตีธาตุเพิ่มขึ้น", "การโจมตีธาตุลดลง"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Artillery",
+        "skill_name": ["Artillery King", "Artillery Novice"],
+        "skill_desc": ["เพิ่มพลังอย่างมาก Ballista, Cannon, Crang, Gunlance Shots และ Wyvern Fire", "เพิ่มพลัง Ballista, Cannon, Crang, Gunlance Shots และ Wyvern Fire"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Sheathing",
+        "skill_name": ["Quick Sheathe"],
+        "skill_desc": ["เพิ่มความเร็วในการเก็บอาวูธ"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Stam Recov",
+        "skill_name": ["Stam Recov", "Stam Down"],
+        "skill_desc": ["เพิ่มความเร็วในการฟื้นฟู Stamina", "ลดความเร็วในการฟื้นฟู Stamina"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Stam Drain",
+        "skill_name": ["Stamina Thief"],
+        "skill_desc": ["เพิ่มสถานะความเหนื่อยล้าในการโจมตี"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Destroyer",
+        "skill_name": ["Partbreaker"],
+        "skill_desc": ["เพิ่มพลังเมื่อโจมตีเมื่อตีส่วนที่ทำลาย"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Tenderizer",
+        "skill_name": ["Weakness Exploit"],
+        "skill_desc": ["เพิ่ม Affinity 50% เมื่อโจมตีจุดอ่อน"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Gloves Off",
+        "skill_name": ["Latent Power +2", "Latent Power +1"],
+        "skill_desc": ["1นาที30วิหลังเจอมอนเตอร์เพิ่ม Affinity 50% และใช้ Stamina น้อยลงเหลือ 1/4", "1นาที30วิหลังเจอมอนเตอร์เพิ่ม Affinity 30% และใช้ Stamina น้อยลงเหลือ 1/2"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Heat Res",
+        "skill_name": ["Heat Cancel", "Heat Surge"],
+        "skill_desc": ["ไม่ร้อนรวมถึงความเสียหายจากลาวา", "โดนความเสียหายจากความร้อนเพิ่มขึ้น"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Cold Res",
+        "skill_name": ["Cold Cancel", "Cold Surge"],
+        "skill_desc": ["ไม่หนาว", "ทำให้แถบ Stamina ลดเร็วขึ้น"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Sleep",
+        "skill_name": ["Negate Sleep", "Double Sleep"],
+        "skill_desc": ["ไม่ติดสลบ", "ได้รับระยะเวลาสลบ2เท่า"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Poison",
+        "skill_name": ["Negate Poison", "Double Poison"],
+        "skill_desc": ["ไม่ติดพิษ", "ได้รับความเสียหายจากพิษ2เท่า"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Paralysis",
+        "skill_name": ["Negate Paralysis", "Double Paralysis"],
+        "skill_desc": ["ไม่ติดอัมพาต", "ได้รับระยะเวลาอัมพาต2เท่า"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Stun",
+        "skill_name": ["Negate Stun", "Halve Stun", "Double Stun"],
+        "skill_desc": ["ไม่ติดสตั้น", "ลดโอกาสติดสตั้น50%", "สตั้นนาน2เท่า"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Fire Res",
+        "skill_name": ["Fire Res +10", "Fire Res +5", "Fire Res -10"],
+        "skill_desc": ["ต้านทานธาตุไฟเพิ่ม10", "ต้านทานธาตุไฟเพิ่ม5", "ต้านทานธาตุไฟลด10"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Water Res",
+        "skill_name": ["Water Res +10", "Water Res +5", "Water Res -10"],
+        "skill_desc": ["ต้านทานธาตุน้ำเพิ่ม10", "ต้านทานธาตุน้ำเพิ่ม5", "ต้านทานธาตุน้ำลด10"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "ThunderRes",
+        "skill_name": ["Thunder Res +10", "Thunder Res +5", "Thunder Res -10"],
+        "skill_desc": ["ต้านทานธาตุสายฟ้าเพิ่ม10", "ต้านทานธาตุสายฟ้าเพิ่ม5", "ต้านทานธาตุสายฟ้าลด10"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Ice Res",
+        "skill_name": ["Ice Res +10", "Ice Res +5", "Ice Res -10"],
+        "skill_desc": ["ต้านทานธาตุน้ำแข็งเพิ่ม10", "ต้านทานธาตุน้ำแข็งเพิ่ม5", "ต้านทานธาตุน้ำแข็งลด10"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Dragon Res",
+        "skill_name": ["Dragon Res +10", "Dragon Res +5", "Dragon Res -10"],
+        "skill_desc": ["ต้านทานธาตุมังกรเพิ่ม10", "ต้านทานธาตุมังกรเพิ่ม5", "ต้านทานธาตุมังกรลด10"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Wind Res",
+        "skill_name": ["Windproof (Hi)", "Windproof (Lo)"],
+        "skill_desc": ["ต้านลมเกือบทั้งหมด", "ต้านลมบางส่วน"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Hearing",
+        "skill_name": ["HG Earplugs", "Earplugs"],
+        "skill_desc": ["ต้านเสียงทั้งหมด", "ต้านเสียงบางส่วน"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Tremor Res",
+        "skill_name": ["Tremor Resistance"],
+        "skill_desc": ["ป้องกันการสั่นสะเทือน"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Mud/Snow",
+        "skill_name": ["Negate Mud/Snow"],
+        "skill_desc": ["ป้องกันติดหิมะและโคลน"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Antiseptic",
+        "skill_name": ["Antiseptic"],
+        "skill_desc": ["ป้องกันตด"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Def Lock",
+        "skill_name": ["Iron Skin"],
+        "skill_desc": ["ป้องกันสถานะติดลบป้องกัน"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Blight Res",
+        "skill_name": ["Blights Negated"],
+        "skill_desc": ["ลบความเสียหายของธาตุทั้งหมด"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Constitution",
+        "skill_name": ["Constitution +2", "Constitution +1", "Constitution -1", "Constitution -2"],
+        "skill_desc": ["การหลบหลีกและการบล็อกใช้ Stamina น้อยกว่า", "การหลบหลีกและการบล็อกใช้ Stamina น้อย", "การหลบหลีกและการบล็อกใช้ Stamina มาก", "การหลบหลีกและการบล็อกใช้ Stamina มากกว่า"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Hunger",
+        "skill_name": ["Negate Hunger", "Halve Hunger", "Raise Hunger", "Double Hunger"],
+        "skill_desc": ["แถบ Stamina ไม่ลด(ยกเว้นด่านหิมะ)", "แถบ Stamina ลดน้อย", "แถบ Stamina ลดไว", "แถบ Stamina ลดไวมาก"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Stamina",
+        "skill_name": ["Marathon Runner", "Short Sprinter"],
+        "skill_desc": ["การกระทำอย่างอื่นที่ไม่ใช่หลบหลีกและการบล็อกใช้ Stamina น้อย", "การกระทำอย่างอื่นที่ไม่ใช่หลบหลีกและการบล็อกใช้ Stamina มาก"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Tranquilzr",
+        "skill_name": ["Capture Master", "Capture Expert"],
+        "skill_desc": ["เพิ่มรางวัลอย่างมากในการจับ", "เพิ่มรางวัลในการจับ"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Transporter",
+        "skill_name": ["Pro Transporter"],
+        "skill_desc": ["เดินทางเร็วขึ้นขณะบรรทุกไข่หรือผงหิน"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Evasion",
+        "skill_name": ["Evasion +2", "Evasion +1", "Evasion Down"],
+        "skill_desc": ["ขยายเวลา iframe มากกว่า", "ขยายเวลา iframe มาก", "ขยายเวลา iframe น้อย"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Evade Dist",
+        "skill_name": ["Evade Extender"],
+        "skill_desc": ["เพิ่มระยะการหลบหลีก"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Auto-Guard",
+        "skill_name": ["Auto-Guard"],
+        "skill_desc": ["หากป้องกันได้จะป้องกันให้อัตโนมัติ"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Guard Up",
+        "skill_name": ["Guard Boost"],
+        "skill_desc": ["สามารถบล็อกการโจมตีที่บล็อกไม่ได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Guard",
+        "skill_name": ["Guard +2", "Guard +1", "Guard -1"],
+        "skill_desc": ["การบล็อกจะใช้ Stamina และกระเด็นน้อยกว่า", "การบล็อกจะใช้ Stamina และกระเด็นน้อย", "การบล็อกจะใช้ Stamina และกระเด็นมาก"],
+        "skill_point": ["+20", "+10", "-10"]
+      }, {
+        "name": "Bomb Boost",
+        "skill_name": ["Bombardier"],
+        "skill_desc": ["ความเสียหายจากระเบิดจะเพิ่มขึ้นและผสมระเบิด 100%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "SpeedSetup",
+        "skill_name": ["Trap Master"],
+        "skill_desc": ["วางกับดักกับระเบิดเร็วและผสมกับดัก 100%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Dungmaster",
+        "skill_name": ["Dung Bomb Expert"],
+        "skill_desc": ["เพิ่มประสิทธิภาพ Dung Bomb และผสม 100%"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "LastingPwr",
+        "skill_name": ["Item Use Up", "Item Use Down"],
+        "skill_desc": ["เพิ่มเวลายาบางรายการ", "ลดเวลายาบางรายการ"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Rec Level",
+        "skill_name": ["Recovery Up", "Recovery Down"],
+        "skill_desc": ["กินยาได้เลือดมากขึ้น", "กินยาได้เลือดน้อยลง"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Wide-Range",
+        "skill_name": ["Wide-Range +2", "Wide-Range +1"],
+        "skill_desc": ["เมื่อกินยาหรือสถานะเพื่อนในปาตี้จะได้รับด้วย", "เมื่อกินยาหรือสถานะเพื่อนที่ใกล้จะได้รับด้วย"],
+        "skill_point": ["+20", "+10"]
+      }, {
+        "name": "Ranger",
+        "skill_name": ["Outdoorsman"],
+        "skill_desc": ["แผนที่พร้อมใช้งาน/ตกปลาจะกัดครั้งแรกเสมอ/ย่างเนื้อแบบดีง่าย"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Maestro",
+        "skill_name": ["Horn Maestro"],
+        "skill_desc": ["ลดโอกาสแตกขลุ่ยและขยายระยะเวลาเอฟเฟ็กต์ Hunting Horn"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Gluttony",
+        "skill_name": ["Scavenger", "Gourmand"],
+        "skill_desc": ["กิน Stamina เพิ่มสูงสุด", "บางครั้งกิน Stamina เพิ่มสูงสุด"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Eating",
+        "skill_name": ["Speed Eating +2", "Speed Eating +1", "Slow Eater"],
+        "skill_desc": ["เพิ่มความเร็วในการกินเนื้อสัตว์และไอเทม", "เพิ่มความเร็วในการกินเนื้อสัตว์", "ลดความเร็วในการกินเนื้อสัตว์"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Combo Rate",
+        "skill_name": ["Combination +45%", "Combination +20%", "Combination -10%", "Combination -20%"],
+        "skill_desc": ["เพิ่มการผสมของ 45%", "เพิ่มการผสมของ 20%", "ลดการผสมของ 10%", "ลดการผสมของ 20%"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Combo Plus",
+        "skill_name": ["Combination Pro"],
+        "skill_desc": ["ผสมได้ของมากที่สุดทุกครั้ง"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Sharpener",
+        "skill_name": ["Speed Sharpening", "Slow Sharpening"],
+        "skill_desc": ["ลับคม1ครั้ง", "ลับคม5ครั้ง"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Crit Draw",
+        "skill_name": ["Critical Draw"],
+        "skill_desc": ["เพิ่ม Affinity 100% ทุกครั้งที่ชักดาบออกมาโจมตีครั้งแรก"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "KO",
+        "skill_name": ["Knockout King"],
+        "skill_desc": ["เพิ่มพลังโจมตี KO"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "PunishDraw",
+        "skill_name": ["Punishing Draw"],
+        "skill_desc": ["เปลี่ยนความเสียหายเป็น KO เมื่อโจมตีส่วนที่ OK ได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "FastCharge",
+        "skill_name": ["Focus", "Distraction"],
+        "skill_desc": ["ลดเวลา การชาร์จ เติมแถบ ของอาวุธ", "เพิ่มเวลา การชาร์จ เติมแถบ ของอาวุธ"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Sharpness",
+        "skill_name": ["Razor Sharp", "Blunt Edge"],
+        "skill_desc": ["ลดการเสียความคมลง", "เพิ่มการเสียความคมลง"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Handicraft",
+        "skill_name": ["Sharpness+1"],
+        "skill_desc": ["เพิ่มความคม1ระดับ"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Fencing",
+        "skill_name": ["Mind's Eye"],
+        "skill_desc": ["โจมตีไม่ถูกสะท้อน"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Reload Spd",
+        "skill_name": ["Reload Speed +3", "Reload Speed +2", "Reload Speed +1", "Reload Speed -1", "Reload Speed -2", "Reload Speed -3"],
+        "skill_desc": ["รีโหลดเร็วขึ้น 3 ระดับ", "รีโหลดเร็วขึ้น 2 ระดับ", "รีโหลดเร็วขึ้น 1 ระดับ", "รีโหลดลดลง 1 ระดับ", "รีโหลดลดลง 2 ระดับ", "รีโหลดลดลง 3 ระดับ"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Recoil",
+        "skill_name": ["Recoil Down +3", "Recoil Down +2", "Recoil Down +1", "Recoil Down -1", "Recoil Down -2", "Recoil Down -3"],
+        "skill_desc": ["แรงถีบลดลง 3 ระดับ", "แรงถีบลดลง 2 ระดับ", "แรงถีบลดลง 1 ระดับ", "แรงถีบเพิ่มขึ้น 1 ระดับ", "แรงถีบเพิ่มขึ้น 2 ระดับ", "แรงถีบเพิ่มขึ้น 3 ระดับ"],
+        "skill_point": ["+20", "+15", "+10", "-10", "-15", "-20"]
+      }, {
+        "name": "Precision",
+        "skill_name": ["Steadiness +2", "Steadiness +1", "Steadiness -1", "Steadiness -2"],
+        "skill_desc": ["ลดความเบี่ยงเบน 2 ระดับ", "ลดความเบี่ยงเบน 1 ระดับ", "เพิ่มความเบี่ยงเบน 1 ระดับ", "เพิ่มความเบี่ยงเบน 2 ระดับ"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Normal Up",
+        "skill_name": ["Normal/Rapid Up"],
+        "skill_desc": ["เพิ่มความแรงของกระสุน Normal S และ Rapid shots"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Pierce Up",
+        "skill_name": ["Pierce/Pierce Up"],
+        "skill_desc": ["เพิ่มความแรงของกระสุน Pierce S และ Pierce shots"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Pellet Up",
+        "skill_name": ["Pellet/Spread Up"],
+        "skill_desc": ["เพิ่มความแรงของกระสุน Pellet S และ Scatter shots"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Normal S+",
+        "skill_name": ["Use Any Normal"],
+        "skill_desc": ["สามารถใช้กระสุน Normal S ได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Pierce S+",
+        "skill_name": ["Use Any Pierce S", "Use Lv1 Pierce S"],
+        "skill_desc": ["สามารถใช้กระสุน Pierce S ได้", "สามารถใช้กระสุน Pierce S Lv1 ได้"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Pellet S+",
+        "skill_name": ["Use Any Pellet S", "Use Lv1 Pellet S"],
+        "skill_desc": ["สามารถใช้กระสุน Pellet S ได้", "สามารถใช้กระสุน Pellet S Lv1 ได้"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Crag S+",
+        "skill_name": ["Use Any Crag S", "Use Lv1 Crag S"],
+        "skill_desc": ["สามารถใช้กระสุน Crag S ได้", "สามารถใช้กระสุน Crag S Lv1 ได้"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "ClustS+",
+        "skill_name": ["Use Any Clust S", "Use Lv1 Clust S"],
+        "skill_desc": ["สามารถใช้กระสุน Clust S ได้", "สามารถใช้กระสุน Clust S Lv1 ได้"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Slicing S+",
+        "skill_name": ["Use Slicing S"],
+        "skill_desc": ["สามารถใช้กระสุน Slicing S ได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Loading",
+        "skill_name": ["Load Up"],
+        "skill_desc": ["เพิ่มจำนวนกระสุน 1 นัด และเพิ่มชาร์จ 1 ระดับให้กับธนู"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Rapid Fire",
+        "skill_name": ["Bonus Shot"],
+        "skill_desc": ["เพิ่มการยิงเร็ว1นัด"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Poison C+",
+        "skill_name": ["Use Poison Coat"],
+        "skill_desc": ["สามารถใช้ Poison Coat"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Para C+",
+        "skill_name": ["Use Para Coat"],
+        "skill_desc": ["สามารถใช้ Para Coat"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Sleep C+",
+        "skill_name": ["Use Sleep Coat"],
+        "skill_desc": ["สามารถใช้ Sleep Coat"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Power C+",
+        "skill_name": ["Use Power Coat"],
+        "skill_desc": ["สามารถใช้ Power Coat"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "C.Range C+",
+        "skill_name": ["Use C.Range Coat"],
+        "skill_desc": ["สามารถใช้ Razor Coat"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Exhaust C+",
+        "skill_name": ["Use Exhaust Coat"],
+        "skill_desc": ["สามารถใช้ Exhaust Coat"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "TorsoUp",
+        "skill_name": ["Torso Up x1", "Torso Up x2", "Torso Up x3"],
+        "skill_desc": ["แต้มจะเพิ่ม2เท่ารวมถึงเพชรที่ใส่", "แต้มจะเพิ่ม3เท่ารวมถึงเพชรที่ใส่", "แต้มจะเพิ่ม4เท่ารวมถึงเพชรที่ใส่"],
+        "skill_point": ["N/A", "N/A", "N/A"]
+      }, {
+        "name": "Anti-Theft",
+        "skill_name": ["Anti-Theft"],
+        "skill_desc": ["แมวไม่สามารถขโมบได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Psychic",
+        "skill_name": ["Autotracker", "Detect"],
+        "skill_desc": ["มอนเตอร์แสดงตลอดแม้ไม่ได้ทำเครื่องหมาย", "มอนเตอร์แสดั่คราวแม้ไม่ได้ทำเครื่องหมาย"],
+        "skill_point": ["+15", "+10"]
+      }, {
+        "name": "Perception",
+        "skill_name": ["Capture Guru"],
+        "skill_desc": ["มอนเตอร์จะกระพริบเมื่อสามารถจับได้"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Sense",
+        "skill_name": ["Sneak", "Taunt"],
+        "skill_desc": ["มอนสเตอร์โอกาสน้อยที่จะมาโจมตีคุณถ้ามาเป็นกลุ่ม", "มอนสเตอร์โอกาสมากที่จะมาโจมตีคุณถ้ามาเป็นกลุ่ม"],
+        "skill_point": ["+10", "-10"]
+      }, {
+        "name": "Spd Gather",
+        "skill_name": ["Speed Gatherer"],
+        "skill_desc": ["เก็บของไวขึ้น"],
+        "skill_point": ["+10"]
+      }, {
+        "name": "Gathering",
+        "skill_name": ["Gathering +2", "Gathering +1", "Gathering -1"],
+        "skill_desc": ["มีโอกาสสูงมากที่จะเก็บของมากขึ้น", "มีโอกาสมากที่จะเก็บของมากขึ้น", "มีโอกาสมากที่เก็บของน้อยลง"],
+        "skill_point": ["+15", "+10", "-10"]
+      }, {
+        "name": "Whim",
+        "skill_name": ["Divine Whim", "Spirit's Whim", "Spectre's Whim", "Devil's Whim"],
+        "skill_desc": ["โอกาสที่จับแมลง/เสียม/แตรจะแตกยากมาก", "โอกาสที่จับแมลง/เสียม/แตรจะแตกยาก", "โอกาสที่จับแมลง/เสียม/แตรจะแตกง่าย", "โอกาสที่จับแมลง/เสียม/แตรจะแตกง่ายมาก"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Fate",
+        "skill_name": ["Great Luck", "Good Luck", "Bad Luck", "Horrible Luck"],
+        "skill_desc": ["เพิ่มรางวัลที่ได้รับ", "บางครั้งเพิ่มรางวัลที่ได้รับ", "บางครั้งลดรางวัลที่ได้รับ", "ลดรางวัลที่ได้รับ"],
+        "skill_point": ["+15", "+10", "-10", "-15"]
+      }, {
+        "name": "Carving",
+        "skill_name": ["Carving Master"],
+        "skill_desc": ["เพิ่มโอกาสในการแร้เนื้อ"],
+        "skill_point": ["+15"]
+      }, {
+        "name": "Protection",
+        "skill_name": ["Divine Blessing", "Demonic Blessing"],
+        "skill_desc": ["บางครั้งลดความเสียหายที่ได้รับ", "บางครั้งเพิ่มความเสียหายที่ได้รับ"],
+        "skill_point": ["+10", "-10"]
+      }
+    ],
+    "skilArmorNow": [
+      {
+        "name": "Artful Dodger",
+        "skill_desc": [
+          "หลบหลีก Perfect ง่ายขึ้นนิดหน่อย",
+          "หลบหลีก Perfect ง่ายขึ้นเล็กน้อย",
+          "หลบหลีก Perfect ง่ายขึ้นพอสมควร",
+          "หลบหลีก Perfect ง่ายขึ้นมาก",
+          "หลบหลีก Perfect ง่ายขึ้นอย่างมาก"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Attack Boost",
+        "skill_desc": [
+          "เพิ่มพลังโจมตี 20",
+          "เพิ่มพลังโจมตี 40",
+          "เพิ่มพลังโจมตี 60",
+          "เพิ่มพลังโจมตี 80",
+          "เพิ่มพลังโจมตี 120"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Burst",
+        "skill_desc": [
+          "การโจมตีติดต่อกันในช่วงเวลาสั้นๆ จะเพิ่มพลังโจมตี 5% เป็นเวลา 4 วินาที",
+          "การโจมตีติดต่อกันในช่วงเวลาสั้นๆ จะเพิ่มพลังโจมตี 10% เป็นเวลา 4 วินาที",
+          "การโจมตีติดต่อกันในช่วงเวลาสั้นๆ จะเพิ่มพลังโจมตี 15% เป็นเวลา 4 วินาที",
+          "การโจมตีติดต่อกันในช่วงเวลาสั้นๆ จะเพิ่มพลังโจมตี 20% เป็นเวลา 4 วินาที",
+          "การโจมตีติดต่อกันในช่วงเวลาสั้นๆ จะเพิ่มพลังโจมตี 30% เป็นเวลา 4 วินาที"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Concentration",
+        "skill_desc": [
+          "เพิ่มอัตราการเติมเกจพิเศษ 5%",
+          "เพิ่มอัตราการเติมเกจพิเศษ 10%",
+          "เพิ่มอัตราการเติมเกจพิเศษ 15%",
+          "เพิ่มอัตราการเติมเกจพิเศษ 20%",
+          "เพิ่มอัตราการเติมเกจพิเศษ 30%"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Critical Eye",
+        "skill_desc": [
+          "เพิ่ม Affinity 10%",
+          "เพิ่ม Affinity 15%",
+          "เพิ่ม Affinity 20%",
+          "เพิ่ม Affinity 30%",
+          "เพิ่ม Affinity 40%"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Defense Boost",
+        "skill_desc": [
+          "เพิ่มการป้องกัน 20",
+          "เพิ่มการป้องกัน 40",
+          "เพิ่มการป้องกัน 60",
+          "เพิ่มการป้องกัน 80",
+          "เพิ่มพลังป้องกัน 100"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Divine Blessing",
+        "skill_desc": [
+          "มีโอกาส 30% ที่จะลดความเสียหายจากการโจมตีของมอนสเตอร์ลง 50%",
+          "มีโอกาส 40% ที่จะลดความเสียหายจากการโจมตีของมอนสเตอร์ลง 50%",
+          "มีโอกาส 50% ที่จะลดความเสียหายจากการโจมตีของมอนสเตอร์ลง 50%",
+          "มีโอกาส 50% ที่จะลดความเสียหายจากการโจมตีของมอนสเตอร์ลง 60%",
+          "มีโอกาส 50% ที่จะลดความเสียหายจากการโจมตีของมอนสเตอร์ลง 80%"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Earplugs",
+        "skill_desc": [
+          "ลดเอฟเฟกต์คำรามของสัตว์ประหลาดที่อ่อนแอลงได้ปานกลาง",
+          "ลบล้างเอฟเฟกต์คำรามของสัตว์ประหลาดที่อ่อนแอ และลดเอฟเฟกต์คำรามของสัตว์ประหลาดที่แข็งแกร่งเล็กน้อย",
+          "ลบล้างเอฟเฟกต์คำรามของสัตว์ประหลาดที่อ่อนแอ และลดเอฟเฟกต์คำรามของสัตว์ประหลาดที่แข็งแกร่งในระดับปานกลาง",
+          "ลบล้างเอฟเฟกต์คำรามของสัตว์ประหลาดที่อ่อนแอ และลดเอฟเฟกต์คำรามของสัตว์ประหลาดที่แข็งแกร่งลงอย่างมาก",
+          "ลบล้างเอฟเฟกต์คำรามของมอนสเตอร์ทั้งที่อ่อนแอและแข็งแกร่ง"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Evade Extender",
+        "skill_desc": [
+          "ขยายระยะการหลบหลีกได้เล็กน้อยมาก",
+          "ขยายระยะการหลบหลีกเล็กน้อย",
+          "ขยายระยะการหลบหลีกได้ปานกลาง",
+          "ขยายระยะการหลบหลีกได้อย่างมาก",
+          "ขยายระยะการหลบหลีกอย่างหนาแน่น"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Fire Attack",
+        "skill_desc": [
+          "เพิ่มค่าธาตุไฟของอาวุธขึ้น 50",
+          "เพิ่มค่าธาตุไฟของอาวุธขึ้น 100",
+          "เพิ่มค่าธาตุไฟของอาวุธขึ้น 200",
+          "เพิ่มค่าธาตุไฟของอาวุธขึ้น 350",
+          "เพิ่มค่าธาตุไฟของอาวุธขึ้น 500"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Fire Resistance",
+        "skill_desc": [
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุไฟลง 10%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุไฟลง 20%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุไฟลง 30%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุไฟลง 40%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุไฟลง 50%"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Firm Foothold",
+        "skill_desc": [
+          "ลดการกระเด็นเล็กน้อยมากเมื่อได้รับความเสียหาย",
+          "ลดการกระเด็นเล็กน้อยเมื่อได้รับความเสียหาย",
+          "ลดการกระเด็นเล็กน้อยเมื่อได้รับความเสียหาย"
+        ],
+        "skill_point": ["1", "2", "3"]
+      }, {
+        "name": "Focus",
+        "skill_desc": [
+          "ลดเวลาในการชาร์จอาวุธด้วยการโจมตีด้วยการชาร์จลง 5% และเพิ่มอัตราการเติมของ Spirit Gauge ขึ้น 5%",
+          "ลดเวลาในการชาร์จอาวุธด้วยการโจมตีด้วยการชาร์จลง 10% และเพิ่มอัตราการเติมของ Spirit Gauge ขึ้น 10%",
+          "ลดเวลาในการชาร์จอาวุธด้วยการโจมตีด้วยการชาร์จลง 15% และเพิ่มอัตราการเติมของ Spirit Gauge ขึ้น 15%",
+          "ลดเวลาในการชาร์จอาวุธด้วยการโจมตีด้วยการชาร์จลง 20% และเพิ่มอัตราการเติมของ Spirit Gauge ลง 20%",
+          "ลดเวลาในการชาร์จอาวุธด้วยการโจมตีด้วยการชาร์จลง 30% และเพิ่มอัตราการเติมของ Spirit Gauge ขึ้น 30%"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Fortify",
+        "skill_desc": [
+          "เพิ่มพลังโจมตี 10% เป็นเวลา 10 วินาทีทุกครั้งที่คุณฟื้นคืนชีพหลังจากเป็นลมระหว่างการล่า",
+          "เพิ่มพลังโจมตี 15% เป็นเวลา 10 วินาทีทุกครั้งที่คุณฟื้นคืนชีพหลังจากเป็นลมระหว่างการล่า",
+          "เพิ่มพลังโจมตี 20% เป็นเวลา 10 วินาทีทุกครั้งที่คุณฟื้นคืนชีพหลังจากเป็นลมระหว่างการล่า",
+          "เพิ่มพลังโจมตี 30% เป็นเวลา 10 วินาทีทุกครั้งที่คุณฟื้นคืนชีพหลังจากเป็นลมระหว่างการล่า",
+          "เพิ่มพลังโจมตี 40% เป็นเวลา 10 วินาทีทุกครั้งที่คุณฟื้นคืนชีพหลังจากเป็นลมระหว่างการล่า"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Guard",
+        "skill_desc": [
+          "ลดความเสียหายและป้องกันการกระเด็นกลับเล็กน้อยจากการโจมตีของมอนสเตอร์",
+          "ลดความเสียหายเล็กน้อยและป้องกันการโจมตีจากมอนสเตอร์",
+          "ลดความเสียหายและป้องกันการโจมตีของมอนสเตอร์ลงได้ปานกลาง",
+          "ลดความเสียหายลงอย่างมากและป้องกันการกระเด็นจากการโจมตีของมอนสเตอร์",
+          "ลดความเสียหายได้อย่างมหาศาลและป้องกันการโจมตีจากมอนสเตอร์"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Guts",
+        "skill_desc": [
+          "สูงสุด 1 ครั้งต่อการล่า รอดชีวิตจากความเสียหายร้ายแรงที่ได้รับที่พลังชีวิต 80 หรือสูงกว่า",
+          "สูงสุด 1 ครั้งต่อการล่า รอดชีวิตจากความเสียหายร้ายแรงที่ได้รับที่พลังชีวิต 70 หรือสูงกว่า",
+          "สูงสุด 1 ครั้งต่อการล่า รอดชีวิตจากความเสียหายร้ายแรงที่ได้รับที่พลังชีวิต 60 หรือสูงกว่า",
+          "สูงสุด 1 ครั้งต่อการล่า รอดชีวิตจากความเสียหายร้ายแรงที่ได้รับที่พลังชีวิต 50 หรือสูงกว่า",
+          "สูงสุด 1 ครั้งต่อการล่า รอดชีวิตจากความเสียหายร้ายแรงที่ได้รับที่พลังชีวิต 40 หรือสูงกว่า"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Health Boost",
+        "skill_desc": [
+          "เพิ่ม Health 10",
+          "เพิ่ม Health 20",
+          "เพิ่ม Health 30",
+          "เพิ่ม Health 40",
+          "เพิ่ม Health 50"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Heroics",
+        "skill_desc": [
+          "เพิ่มพลังโจมตี 10% เมื่อ Health ลดลงเหลือ 29% หรือต่ำกว่า",
+          "เพิ่มพลังโจมตี 20% เมื่อ Health ลดลงเหลือ 29% หรือต่ำกว่า",
+          "เพิ่มพลังโจมตี 30% เมื่อ Health ลดลงเหลือ 29% หรือต่ำกว่า",
+          "เพิ่มพลังโจมตี 40% เมื่อ Health ลดลงเหลือ 29% หรือต่ำกว่า",
+          "เพิ่มพลังโจมตี 50% เมื่อ Health ลดลงเหลือ 29% หรือต่ำกว่า"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Ice Attack",
+        "skill_desc": [
+          "เพิ่มค่าธาตุน้ำแข็งของอาวุธขึ้น 50",
+          "เพิ่มค่าธาตุน้ำแข็งของอาวุธขึ้น 100",
+          "เพิ่มค่าธาตุน้ำแข็งของอาวุธขึ้น 200",
+          "เพิ่มค่าธาตุน้ำแข็งของอาวุธขึ้น 350",
+          "เพิ่มค่าธาตุน้ำแข็งของอาวุธขึ้น 500"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Ice Resistance",
+        "skill_desc": [
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุน้ำแข็งลง 10%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุน้ำแข็งลง 20%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุน้ำแข็งลง 30%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุน้ำแข็งลง 40%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุน้ำแข็งลง 50%"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Last Stand",
+        "skill_desc": [
+          "เพิ่มการป้องกัน 50 เมื่อสุขภาพของคุณลดลงเหลือ 29% หรือต่ำกว่า",
+          "เพิ่มการป้องกัน 100 เมื่อสุขภาพของคุณลดลงเหลือ 29% หรือต่ำกว่า",
+          "เพิ่มการป้องกัน 150 เมื่อสุขภาพของคุณลดลงเหลือ 29% หรือต่ำกว่า",
+          "เพิ่มการป้องกัน 200 เมื่อสุขภาพของคุณลดลงเหลือ 29% หรือต่ำกว่า",
+          "เพิ่มการป้องกัน 300 เมื่อสุขภาพของคุณลดลงเหลือ 29% หรือต่ำกว่า"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Lock On",
+        "skill_desc": [
+          "แสดงปุ่มล็อคขณะล่าสัตว์ด้วยอาวุธระยะใกล้ ทำให้สามารถกำหนดเป้าหมายส่วนของร่างกายสัตว์ประหลาดเฉพาะได้"
+        ],
+        "skill_point": ["1"]
+      }, {
+        "name": "Offensive Guard",
+        "skill_desc": [
+          "เพิ่มพลังโจมตี 10% เป็นเวลา 10 วินาทีหลังจากจัดการยามทันเวลา",
+          "เพิ่มพลังโจมตี 15% เป็นเวลา 10 วินาทีหลังจากจัดการยามทันเวลา",
+          "เพิ่มพลังโจมตี 20% เป็นเวลา 10 วินาทีหลังจากจัดการยามทันเวลา",
+          "เพิ่มพลังโจมตี 30% เป็นเวลา 10 วินาทีหลังจากจัดการยามทันเวลา",
+          "เพิ่มพลังโจมตี 40% เป็นเวลา 10 วินาทีหลังจากจัดการยามทันเวลา"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Paralysis Attack",
+        "skill_desc": [
+          "เพิ่มค่า Paralysis ของอาวุธขึ้น 50",
+          "เพิ่มค่า Paralysis ของอาวุธขึ้น 75",
+          "เพิ่มค่า Paralysis ของอาวุธขึ้น 100",
+          "เพิ่มค่า Paralysis ของอาวุธขึ้น 125",
+          "เพิ่มค่า Paralysis ของอาวุธขึ้น 150"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Paralysis Resistance",
+        "skill_desc": [
+          "ได้รับโอกาส 20% ที่จะป้องกันสถานะ Paralysis",
+          "ได้รับโอกาส 40% ที่จะป้องกันสถานะ Paralysis",
+          "ได้รับโอกาส 60% ที่จะป้องกันสถานะ Paralysis",
+          "ได้รับโอกาส 80% ที่จะป้องกันสถานะ Paralysis",
+          "ป้องกันอัมพาต"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Partbreaker",
+        "skill_desc": [
+          "เพิ่มความเสียหายของชิ้นส่วนที่สะสมบนชิ้นส่วนที่แตกหักได้ 5%",
+          "เพิ่มความเสียหายของชิ้นส่วนที่สะสมบนชิ้นส่วนที่แตกหักได้ 10%",
+          "เพิ่มความเสียหายของชิ้นส่วนที่สะสมบนชิ้นส่วนที่แตกหักได้ 20%",
+          "เพิ่มความเสียหายของชิ้นส่วนที่สะสมบนชิ้นส่วนที่แตกหักได้ 30%",
+          "เพิ่มความเสียหายของชิ้นส่วนที่สะสมบนชิ้นส่วนที่แตกหักได้ 40%"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Peak Performance",
+        "skill_desc": [
+          "เพิ่มพลังโจมตี 30 เมื่อพลังชีวิตของคุณเต็ม",
+          "เพิ่มพลังโจมตี 60 เมื่อพลังชีวิตของคุณเต็ม",
+          "เพิ่มพลังโจมตี 90 เมื่อพลังชีวิตของคุณเต็ม",
+          "เพิ่มพลังโจมตี 130 เมื่อพลังชีวิตของคุณเต็ม",
+          "เพิ่มพลังโจมตี 180 เมื่อพลังชีวิตของคุณเต็ม"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Poison Attack",
+        "skill_desc": [
+          "เพิ่มค่า Poison ของอาวุธขึ้น 50",
+          "เพิ่มค่า Poison ของอาวุธขึ้น 75",
+          "เพิ่มค่า Poison ของอาวุธขึ้น 100",
+          "เพิ่มค่า Poison ของอาวุธขึ้น 125",
+          "เพิ่มค่า Poison ของอาวุธขึ้น 150"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Poison Resistance",
+        "skill_desc": [
+          "ได้รับโอกาส 20% ที่จะป้องกันสถานะ Poison",
+          "ได้รับโอกาส 40% ที่จะป้องกันสถานะ Poison",
+          "ได้รับโอกาส 60% ที่จะป้องกันสถานะ Poison",
+          "ได้รับโอกาส 80% ที่จะป้องกันสถานะ Poison",
+          "ป้องกันการเป็นพิษ"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Recoil Down",
+        "skill_desc": [
+          "ลดการหดตัวของ Bowgun เล็กน้อย",
+          "ลดการหดตัวของ Bowgun ได้ปานกลาง",
+          "ลดการหดตัวของ Bowgun ลงอย่างมาก"
+        ],
+        "skill_point": ["1", "2", "3"]
+      }, {
+        "name": "Reload Speed",
+        "skill_desc": [
+          "ลดเวลาการบรรจุกระสุนปืนลงเล็กน้อย",
+          "ลดเวลาการบรรจุของปืนธนูลงปานกลาง",
+          "ลดเวลาการบรรจุกระสุนปืนลงอย่างมาก"
+        ],
+        "skill_point": ["1", "2", "3"]
+      }, {
+        "name": "Resentment",
+        "skill_desc": [
+          "เมื่อได้รับความเสียหาย พลังโจมตีจะเพิ่มขึ้น 10% เป็นเวลา 15 วินาที",
+          "เมื่อได้รับความเสียหาย พลังโจมตีจะเพิ่มขึ้น 15% เป็นเวลา 15 วินาที",
+          "เมื่อได้รับความเสียหาย พลังโจมตีจะเพิ่มขึ้น 20% เป็นเวลา 15 วินาที",
+          "เมื่อได้รับความเสียหาย พลังโจมตีจะเพิ่มขึ้น 25% เป็นเวลา 15 วินาที",
+          "เมื่อได้รับความเสียหาย พลังโจมตีจะเพิ่มขึ้น 30% เป็นเวลา 15 วินาที"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Rising Tide",
+        "skill_desc": [
+          "เพิ่มพลังโจมตีและป้องกันเล็กน้อยมากเมื่อหมดเวลาล่า",
+          "เพิ่มพลังโจมตีและป้องกันเล็กน้อยเมื่อหมดเวลาล่า",
+          "เพิ่มพลังโจมตีและป้องกันเล็กน้อยเมื่อหมดเวลาล่า",
+          "เพิ่มพลังโจมตีและป้องกันอย่างมากเมื่อหมดเวลาล่า",
+          "เพิ่มพลังโจมตีและป้องกันอย่างมหาศาลเมื่อหมดเวลาล่า"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Slugger",
+        "skill_desc": [
+          "เพิ่มพลังสตัน 10%",
+          "เพิ่มพลังสตัน 15%",
+          "เพิ่มพลังสตัน 20%",
+          "เพิ่มพลังสตัน 25%",
+          "เพิ่มพลังสตัน 30%"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Sneak Attack",
+        "skill_desc": [
+          "เพิ่มความเสียหาย 10% เมื่อโจมตีมอนสเตอร์จากด้านหลัง",
+          "เพิ่มความเสียหาย 15% เมื่อโจมตีมอนสเตอร์จากด้านหลัง",
+          "เพิ่มความเสียหาย 20% เมื่อโจมตีมอนสเตอร์จากด้านหลัง",
+          "เพิ่มความเสียหาย 25% เมื่อโจมตีมอนสเตอร์จากด้านหลัง",
+          "เพิ่มความเสียหาย 30% เมื่อโจมตีมอนสเตอร์จากด้านหลัง"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Special Boost",
+        "skill_desc": [
+          "เพิ่มความเสียหายของ Special 10%",
+          "เพิ่มความเสียหายของ Special 15%",
+          "เพิ่มความเสียหายของ Special 20%",
+          "เพิ่มความเสียหายของ Special 25%",
+          "เพิ่มความเสียหายของ Special 30%"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Thunder Attack",
+        "skill_desc": [
+          "เพิ่มค่าธาตุ Thunder ของอาวุธขึ้น 50",
+          "เพิ่มค่าธาตุ Thunder ของอาวุธขึ้น 100",
+          "เพิ่มค่าธาตุ Thunder ของอาวุธขึ้น 200",
+          "เพิ่มค่าธาตุ Thunder ของอาวุธขึ้น 350",
+          "เพิ่มค่าธาตุ Thunder ของอาวุธขึ้น 500"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Thunder Resistance",
+        "skill_desc": [
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุ Thunder ลง 10%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุ Thunder ลง 20%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุ Thunder ลง 30%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุ Thunder ลง 40%",
+          "ลดความเสียหายที่ได้รับจากมอนสเตอร์ธาตุ Thunder ลง 50%"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Water Attack",
+        "skill_desc": [
+          "เพิ่มค่าธาตุ Water ของอาวุธขึ้น 50",
+          "เพิ่มค่าธาตุ Water ของอาวุธขึ้น 100",
+          "เพิ่มค่าธาตุ Water ของอาวุธขึ้น 200",
+          "เพิ่มค่าธาตุ Water ของอาวุธขึ้น 350",
+          "เพิ่มค่าธาตุ Water ของอาวุธขึ้น 500"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Water Resistance",
+        "skill_desc": [
+          "เพิ่มค่าธาตุ Water ของอาวุธขึ้น 50",
+          "เพิ่มค่าธาตุ Water ของอาวุธขึ้น 100",
+          "เพิ่มค่าธาตุ Water ของอาวุธขึ้น 200",
+          "เพิ่มค่าธาตุ Water ของอาวุธขึ้น 350",
+          "เพิ่มค่าธาตุ Water ของอาวุธขึ้น 500"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Weakness Exploit",
+        "skill_desc": [
+          "เพิ่ม Affinity 20% เมื่อโจมตีจุดอ่อนของมอนสเตอร์",
+          "เพิ่ม Affinity 25% เมื่อโจมตีจุดอ่อนของมอนสเตอร์",
+          "เพิ่ม Affinity 30% เมื่อโจมตีจุดอ่อนของมอนสเตอร์",
+          "เพิ่ม Affinity 40% เมื่อโจมตีจุดอ่อนของมอนสเตอร์",
+          "เพิ่ม Affinity 50% เมื่อโจมตีจุดอ่อนของมอนสเตอร์"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }, {
+        "name": "Windproof",
+        "skill_desc": [
+          "ลดผลกระทบของแรงลมเล็กน้อยมาก",
+          "ลดผลกระทบของแรงลมเล็กน้อย",
+          "ลดแรงดันลมเล็กน้อยและลดผลกระทบของแรงดันลมแรงเล็กน้อย",
+          "ลดแรงดันลมเล็กน้อยและลดผลกระทบของแรงดันลมแรง",
+          "ลบล้างความกดดันลมเล็กน้อยและรุนแรง"
+        ],
+        "skill_point": ["1", "2", "3", "4", "5"]
+      }
+    ]
+  }
